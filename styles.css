@@ -1,2 +1,10 @@
 .ancestor .child {color:red}
 .box {color:yellow; background-color: black;} 
+.box {font-family: Arial, Times, serif}
+.box {text-align :center}
+img {width: 120px; height: 120px } 
+#boy {color:pink; background-color: red}
+.main #boy {color:green !important} 
+.main #boy {color:blue}
+#toy {color:orange; background-color:greenyellow}
+.lit {color:blue; background-color: lightgray}
