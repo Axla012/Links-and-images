@@ -1,23 +1,32 @@
 .ancestor .child {color:red}
 #big {color:black; background-color:yellow;
     padding: 10px;
-    border:10px yellow solid;
+    border:10px blue solid;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-sizing: border-box;
 }
 .box {color:yellow; background-color: black;padding: 10px;
     border:5px solid rgb(0, 255, 17);
+    
 } 
 .box {font-family: Arial, Times, serif}
 .box {text-align :center}
 img {width: 120px; height: 120px } 
 #boy {color:pink; background-color: red}
-.main #boy {color:green !important} 
 .main #boy {color:blue}
 #toy {color:orange;background-color:greenyellow ;
     padding: 15px;
     border:5px purple solid;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-sizing: border-box;
     }
 .lit {color:blue;
      background-color: lightgray;
      padding: 15px;
      border:5px black solid;
+     
     }
