@@ -1,3 +1,5 @@
+html{box-sizing: border-box;}
+
 body {background-color: lightblue; font-family:'Times New Roman', Times, serif}
 .ancestor .child {color:red}
 #big {color:black; background-color:yellow;
@@ -32,3 +34,52 @@ img {width: 120px; height: 120px }
      margin: 5px;
      
     }
+.bot {color:green;
+     background-color:white;
+     padding:5px;
+     text-align: center;
+    border:5px solid red;
+     margin: 15px;
+     box-sizing: border-box;
+     width: 300px;
+     height:auto;
+     } 
+.bit{background-color:black;
+     border:5px solid white;
+     box-sizing: border-box;
+     width: 1000px;
+     height:auto;
+     display: flex;
+     gap: 15px;} 
+.bil {color: black;
+     background-color:aqua}
+
+.boy {color:blue;
+     background-color:lightgreen;
+     padding:5px;
+     text-align: center;
+    border:5px solid red;
+     margin: 15px;
+     box-sizing: border-box;
+     width: 300px;
+     height:auto;
+     }
+.list {background-color:lightgray;
+     border:5px solid black;
+     box-sizing: border-box;
+     width: 1000px;
+     height:auto;
+     display: inline-flex;
+     gap: 15px;}
+.lil {color:blue;
+       padding:5px;
+       text-align: center;
+       margin: 15px;
+       width: 70px;}
+.lol {color:green;
+       padding:5px;
+       text-align: center;
+       margin: 15px;
+       width: 70px;}
+.man { display: flex;
+        justify-content: center;} 
