@@ -1,7 +1,9 @@
 html{box-sizing: border-box;}
+*, *::before, *::after {box-sizing: inherit;}
 
-body {background-color: lightblue; font-family:'Times New Roman', Times, serif}
+body {background-color: lightblue; font-family:'Arial', Times, serif}
 .ancestor .child {color:red}
+img {display: inline-block; margin: 0 auto;}
 #big {color:black; background-color:yellow;
     padding: 5px;
     border:5px blue solid;
@@ -65,12 +67,15 @@ img {width: 120px; height: 120px }
      height:auto;
      }
 .list {background-color:lightgray;
-     border:5px solid black;
+     border:5px; border-color:black; border-style:dotted;
+     border-left-style:solid; border-right-style:solid;
+     border-top-color: white;
      box-sizing: border-box;
      width: 1000px;
      height:auto;
      display: inline-flex;
-     gap: 15px;}
+     gap: 15px;
+     margin: 15px;}
 .lil {color:blue;
        padding:5px;
        text-align: center;
@@ -80,6 +85,28 @@ img {width: 120px; height: 120px }
        padding:5px;
        text-align: center;
        margin: 15px;
-       width: 70px;}
+       margin-top:20px;
+       width: 70px;
+       border-top:5px; color:green; border-top-style:dotted;}
 .man { display: flex;
         justify-content: center;} 
+        
+
+ul {list-style: none;
+     font-family: sans-serif;
+     border: 1px solid black;
+    display: flex;}
+
+li {padding: 10px;
+    margin: 5px;}
+
+.links-list a {color:green; text-decoration: none;
+               background-color: aliceblue;
+               padding: 5px;
+     }
+.links-list a:hover {color :whitesmoke;
+                     background-color:limegreen;
+                    padding: 10px;
+                    border: 5px solid white;}
+
+
